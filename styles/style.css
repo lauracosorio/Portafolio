@@ -1,0 +1,153 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+.header {
+    border: 2px dashed lightcoral;
+}
+
+.header_menu {
+    color: brown;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header_menu ul {
+    display: flex;
+}
+
+.header_menu li {
+    display: inherit;
+}
+
+.header_menu a {
+    text-decoration: none;
+    color:brown;
+    padding: 10px; /*En todos los lados si se quiere variar el padding en todos los lados se pone 10px 20px 200px 300px*/
+    font-weight: 700;
+    text-transform: uppercase; /*Letra mayuscula*/
+}
+
+.header_menu a:hover {
+    background-color: peachpuff;
+    color: crimson;
+    border-radius: 10px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto; /*Centra todo lo del contenido*/
+}
+
+.banner {
+    color: brown;
+    background-color: peachpuff;
+}
+
+.banner .banner_hero {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.banner_text-hero {
+    padding: 50px 0 0 100px; /*arriba derecha abajo izquiera*/
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.portafolio {
+    display: flex;
+    margin: 50px 0; /*arriba-abajo izquierda-derecha*/
+}
+
+.portafolio_box {
+    margin: 15px;
+    box-shadow: 0 1px 8px 2px burlywood;
+    border-radius: 5px;
+    color: brown;
+}
+
+.portafolio_box img {
+    border-radius: 5px;
+}
+
+.portafolio_card {
+    margin: 20px;
+    padding: 5px;
+}
+
+.portafolio_card button {
+    background-color: lightsalmon;
+    color: lightgoldenrodyellow;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px burlywood;
+}
+
+.portafolio_card button:hover {
+    background-color: crimson;
+    color: lightgoldenrodyellow;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px burlywood;
+}
+
+.title {
+    text-align: center;
+    border-left: 6px solid salmon;
+    background-color: bisque;
+    color: brown;
+}
+
+.experience {
+    display: flex;
+    margin: 60px 0;
+}
+
+.experience_box {
+    margin: 15px;
+    box-shadow: 0 1px 8px 2px burlywood;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.experience_body {
+    box-shadow: 0 -1px 10px 2px burlywood;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: brown;
+}
+
+.footer {
+    color: lightsalmon;
+    background-color: peachpuff;
+}
+
+.footer .footer_sections {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+.copyright p {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: lightsalmon;
+    text-align: center;
+    color: bisque;
+    font-style: italic;
+}
+
+
+
+
+
+
+
